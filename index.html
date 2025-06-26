@@ -11,7 +11,8 @@
     section { padding: 40px 20px; max-width: 1000px; margin: auto; }
     h2 { color: #222; }
     footer { background: #222; color: #ddd; text-align: center; padding: 20px; }
-    img { max-width: 100%; height: auto; margin-top: 10px; border-radius: 8px; }
+    img { max-width: 100%; height: auto; border-radius: 8px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
   </style>
 </head>
 <body>
@@ -31,8 +32,8 @@
   <h2>Naše storitve</h2>
   <ul>
     <li>Slikopleskarska dela (beljenje, glajenje, barvanje sten in stropov)</li>
-    <li>Fasaderska dela,obnova fasad po toči, zaključni sloji,barvanje)</li>
-    <li>Zaključna gradbena dela</li>
+    <li>Fasaderska dela (izvedba in obnova fasad, zaključni sloji, izolacija)</li>
+    <li>Zaključna gradbena dela vseh vrst</li>
     <li>Različne sanacije in prenove</li>
     <li>Izposoja fasadnih odrov, gradbenih strojev in opreme</li>
   </ul>
@@ -41,13 +42,23 @@
 <section id="onas">
   <h2>O podjetju</h2>
   <p>Gradfix – Nejc Fekonja s.p. je podjetje specializirano za zaključna gradbena dela z dolgoletnimi izkušnjami na področju slikopleskarstva, fasaderstva in sanacij. Zanesljivost, kakovost in natančnost so naše glavne vrednote.</p>
-  <p> Pri delu uporabljamo sodobna orodja in materiale, ki zagotavljajo dolgo življenjsko dobo in estetski videz.</p>
+  <p>Storitve izvajamo po vsej Sloveniji, tako za fizične kot pravne osebe. Pri delu uporabljamo sodobna orodja in materiale, ki zagotavljajo dolgo življenjsko dobo in estetski videz.</p>
 </section>
 
 <section id="galerija">
   <h2>Galerija</h2>
-  <p>Slike bodo dodane kmalu.</p>
-  <!-- <img src="pot/do/slike.jpg" alt="Opis slike"> -->
+  <div class="gallery">
+    <img src="galerija_slike/494533514_122136134342759107_1086589369069909143_n.jpg" alt="slika">
+    <img src="galerija_slike/494755529_122136134384759107_1635150634263908737_n.jpg" alt="slika">
+    <img src="galerija_slike/503853450_122136134378759107_8155552495928940967_n.jpg" alt="slika">
+    <img src="galerija_slike/497561370_122129030438759107_6141023137529356584_n.jpg" alt="slika">
+    <img src="galerija_slike/509287814_122136134012759107_529742477572769952_n.jpg" alt="slika">
+    <img src="galerija_slike/510584003_122136134006759107_4332882930356669629_n.jpg" alt="slika">
+    <img src="galerija_slike/475465259_122099660024759107_1875296285708756427_n.jpg" alt="slika">
+    <img src="galerija_slike/475510552_122099669516759107_4028609916841796088_n.jpg" alt="slika">
+    <img src="galerija_slike/475586146_122099660120759107_1862701832926648391_n.jpg" alt="slika">
+    <img src="galerija_slike/475771000_122099660174759107_2695360382599788256_n.jpg" alt="slika">
+  </div>
 </section>
 
 <section id="kontakt">
